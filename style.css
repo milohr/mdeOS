@@ -97,6 +97,14 @@ ol li {
     text-align: center;
 }
 
+#content #info p,
+#content #info ol li {
+    font-family: courier;
+    font-size: 1em;
+    font-weight: lighter;
+    text-align: left;
+}
+
 #content #links {
     padding: 5%;
     font-family: helvetica;
