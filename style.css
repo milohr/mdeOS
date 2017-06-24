@@ -11,6 +11,14 @@ hr {
     border-top: 1px solid #fff;
 }
 
+ol li {
+    text-align: left;
+}
+
+.old_news {
+    visibility: hidden;
+}
+
 #content a {
     color: pink;
 }
@@ -66,7 +74,12 @@ hr {
     align-items: center;
 }
 
-#content #news p {
+.news {
+    justify-content: center;
+    align-items: center;
+}
+
+#content p {
     padding: 5%;
     text-align: center;
 }
@@ -111,7 +124,13 @@ hr {
     padding: 10px;
     font-family: helvetica;
     font-weight: bold;
-    color: pink;
+    background: white;
+    color: #222;
     font-size: 1.2em;
     text-decoration: none;
+}
+
+#content #mini_link {
+    font-size: 0.8em;
+    text-align: right;
 }
